@@ -2,5 +2,6 @@
 package expressionsAndStatementsExercise1
 
 fun main() {
-  TODO()
+  val result : Unit = println(1)
+  println(result)
 }

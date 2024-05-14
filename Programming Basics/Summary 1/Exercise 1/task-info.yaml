@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 63
-        length: 6
+        length: 80
         placeholder_text: TODO()
         initial_state:
           length: 6
@@ -12,10 +12,14 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: NHP52zZVYiF17j4JSJaSG2O3uwD1Pfw01jTRvESph/sFrnqw6rK5u9K4jpNrLkP4bTxTjBb85wWiXPLWowl2jZqlFau2wcZ0U7GelH+0ttrZBz3h2nf7HenYgQxUdlOE
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     learner_created: false
   - name: test/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 13 May 2024 15:45:07 UTC"
 record: -1

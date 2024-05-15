@@ -2,15 +2,24 @@
 package objectsEverywhereExercise3
 
 fun isPalindrome(s: String): Boolean =
-  s.reversed() == s
+    s.reversed() == s
 
 fun isPalIgnoreCase(s: String): Boolean =
-  isPalindrome(s.lowercase())
+    isPalindrome(s.lowercase())
+
+fun isLetter(ch: Char): Boolean = ch in 'a'..'z' || ch in 'A'..'Z'
 
 fun isPalIgnoreSpecial(s: String): Boolean {
-  TODO()
+    var newString = ""
+    for (ch in s) {
+        if (isLetter(ch)) {
+            newString += ch
+        }
+    }
+    return isPalIgnoreCase(newString)
 }
 
 fun main() {
-  println(isPalIgnoreSpecial("Was It A Rat I Saw? ..."))  // true
+    println(isPalIgnoreSpecial("AAA!"))  // true
+    println(isPalIgnoreSpecial("Was It A Rat I Saw? ..."))  // true
 }

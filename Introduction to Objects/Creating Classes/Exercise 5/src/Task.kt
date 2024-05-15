@@ -1,11 +1,18 @@
 // CreatingClasses/Task5.kt
 package creatingClassesExercise5
 
-fun cap(s: String) = s  
+import java.util.*
+
+fun cap(s: String) = s.replaceFirstChar {
+    if (it.isLowerCase())
+        it.titlecase(Locale.getDefault())
+    else
+        it.toString()
+}
 
 fun main() {
-  println(cap("hi!"))
-  println(cap("Hi!"))
+    println(cap("hi!"))
+    println(cap("Hi!"))
 }
 /* Output:
 Hi!

@@ -2,35 +2,50 @@
 package propertiesExercise3
 
 class Robot {
-  var x = 0
-  var y = 0
+    var x = 0
+    var y = 0
+    private val maxSize = 100
 
-  fun right(steps: Int) {
-    x += steps
-  }
+    private fun crossBoundary(value: Int): Int {
+        val newVal = value % maxSize
+        if (newVal < 0) {
+            return maxSize + newVal
+        } else {
+            return newVal
+        }
+    }
 
-  fun left(steps: Int) {
-    x -= steps
-  }
+    fun right(steps: Int) {
+        x += steps
+        x = crossBoundary(x)
+    }
 
-  fun down(steps: Int) {
-    y += steps
-  }
+    fun left(steps: Int) {
+        x -= steps
+        x = crossBoundary(x)
+    }
 
-  fun up(steps: Int) {
-    y -= steps
-  }
+    fun down(steps: Int) {
+        y += steps
+        y = crossBoundary(y)
+    }
 
-  fun getLocation(): String = "($x, $y)"
+    fun up(steps: Int) {
+        y -= steps
+        y = crossBoundary(y)
+    }
+
+    fun getLocation(): String = "($x, $y)"
 }
 
 fun main() {
-  val robot = Robot()
-  println(robot.getLocation())
-  robot.up(1)
-  println(robot.getLocation())
-  robot.left(10)
-  println(robot.getLocation())
+    val robot = Robot()
+    robot.left(130)
+    println(robot.getLocation())
+    robot.up(1)
+    println(robot.getLocation())
+    robot.left(10)
+    println(robot.getLocation())
 }
 /* Output:
 (0, 0)

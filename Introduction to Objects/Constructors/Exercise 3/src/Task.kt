@@ -2,7 +2,12 @@
 package constructorsExercise3
 
 class Robot(val fieldSize: Int, var x: Int, var y: Int) {
-  fun crossBoundary(coordinate: Int): Int {
+
+  override fun toString(): String {
+    return "Robot(x=$x, y=$y)"
+  }
+
+  private fun crossBoundary(coordinate: Int): Int {
     val inBounds = coordinate % fieldSize
     return if (inBounds < 0) {
       fieldSize + inBounds

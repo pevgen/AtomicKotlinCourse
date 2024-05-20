@@ -7,7 +7,7 @@ files:
     visible: true
     placeholders:
       - offset: 47
-        length: 7
+        length: 43
         placeholder_text: // TODO
         initial_state:
           length: 7
@@ -15,9 +15,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: E1SJj7jPmwPW/Y8TGBLEkvhMluWfGlsJNGvb19g9abGMTu8zUoYseRz9n43RCTsB
         selected: false
-        status: Unchecked
-      - offset: 71
-        length: 6
+        status: Solved
+        is_visible: false
+      - offset: 107
+        length: 24
         placeholder_text: TODO()
         initial_state:
           length: 6
@@ -25,7 +26,11 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: L9XSC2CkoKSvuni8LlsAkNc/V765Km37cwPbHx5I5So=
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 20 May 2024 16:07:54 UTC"
 record: -1

@@ -3,7 +3,13 @@ package setsExercise2
 import kotlin.random.Random
 
 fun experiment(): Int {
-  TODO()
+  val set = mutableSetOf<Int>()
+  var result = 0
+  while (set.size < 25) {
+    set += Random.nextInt(25) + 1
+    result++
+  }
+  return result
 }
 
 fun main() {

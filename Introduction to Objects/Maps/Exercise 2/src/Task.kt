@@ -2,6 +2,7 @@
 package mapsExercise2
 import atomictest.capture
 import atomictest.eq
+import typechecking.name
 
 class Hamster(val name: String) {
   override fun toString(): String {
@@ -22,7 +23,14 @@ class Cage(private val maxCapacity: Int) {
     }
 
   fun get(name: String): Hamster {
-    TODO()
+
+    for (hamster in hamsters) {
+      if (hamster.name == name) {
+        return hamster
+      }
+    }
+    throw NoSuchElementException("No hamster called $name")
+
   }
 }
 

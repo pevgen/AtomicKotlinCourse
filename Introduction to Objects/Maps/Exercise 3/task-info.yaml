@@ -3,8 +3,8 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 261
-        length: 20
+      - offset: 286
+        length: 27
         placeholder_text: MutableList<Hamster>
         initial_state:
           length: 20
@@ -12,9 +12,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: IepeiL6TX3OLWENgezryIqN6RAkv8Ta00HmHKn0z2yw=
         selected: false
-        status: Unchecked
-      - offset: 288
-        length: 24
+        status: Solved
+        is_visible: false
+      - offset: 320
+        length: 14
         placeholder_text: mutableListOf<Hamster>()
         initial_state:
           length: 24
@@ -22,9 +23,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: SIyy2yIXw7uw2nSgM+URGA==
         selected: false
-        status: Unchecked
-      - offset: 420
-        length: 19
+        status: Solved
+        is_visible: false
+      - offset: 442
+        length: 32
         placeholder_text: hamsters += hamster
         initial_state:
           length: 19
@@ -32,9 +34,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: ni4y0kmkZ0DjMAWk1a/b+DWBKcNRXzLIRwtmxIhsVtb2wYy3Tlk4z6vnF80AXT+u
         selected: false
-        status: Unchecked
-      - offset: 491
-        length: 168
+        status: Solved
+        is_visible: false
+      - offset: 526
+        length: 44
         placeholder_text: |-
           {
               for (hamster in hamsters) {
@@ -50,12 +53,16 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: ft4qlVpq7W4VO+hakMOUaIusckPY1N/URkm6WW8fi8o=
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Maps+%2F+Exercise3
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 03 Jun 2024 15:28:05 UTC"
 record: -1

@@ -9,7 +9,11 @@ class Contact(val name: String, val number: String) {
 }
 
 fun buildNumberToContactMap(contactList: List<Contact>): Map<String, Contact> {
-  TODO()
+  val resultMap = mutableMapOf<String, Contact>()
+  for(c in contactList) {
+    resultMap[c.number] = c
+  }
+  return resultMap
 }
 
 fun main() {

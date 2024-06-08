@@ -1,2 +1,9 @@
-Trace: Line 1
-Trace: Line 2
+Trace: mutable:get
+Trace: mutable:set
+Trace: readOnly:get
+Trace: mutable:set
+Trace: mutable:get
+Trace: mutable:set
+Trace: mutable:get
+Trace: readOnly:get
+Trace: mutable:set

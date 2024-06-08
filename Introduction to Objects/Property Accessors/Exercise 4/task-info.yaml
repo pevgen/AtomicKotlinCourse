@@ -3,7 +3,7 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 109
+      - offset: 110
         length: 0
         placeholder_text: ""
         initial_state:
@@ -12,9 +12,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: dOjg5/QIas/VMx2OlBB0wtgSAyoysJShygxyeZ/1aLU=
         selected: false
-        status: Unchecked
-      - offset: 143
-        length: 6
+        status: Solved
+        is_visible: false
+      - offset: 180
+        length: 11
         placeholder_text: TODO()
         initial_state:
           length: 6
@@ -22,12 +23,16 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: xwqdXAnjgdAK8oTlalNnpA==
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Property+Accessors+%2F+Exercise2
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 08 Jun 2024 10:11:25 UTC"
 record: -1

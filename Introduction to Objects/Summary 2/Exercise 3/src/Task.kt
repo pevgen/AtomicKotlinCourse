@@ -2,10 +2,24 @@
 package summaryIIExercise3
 import atomictest.*
 
-class FixedSizeHolder
+class FixedSizeHolder(val maxSize: Int) {
+    var size : Int = 0
+        get() = field
+
+    val full : Boolean
+        get() = size == maxSize
+
+    public fun add(obj : Any) {
+        if (full) {
+            throw IllegalStateException("The container is full");
+        }
+        size++;
+    }
+
+}
 
 fun main() {
-/*
+
   val holder = FixedSizeHolder(2)
   holder.add("What is the answer?")
   holder.add(42)
@@ -14,5 +28,5 @@ fun main() {
   capture {
     holder.add("!!!")
   } eq "IllegalStateException: The container is full"
-*/
+
 }

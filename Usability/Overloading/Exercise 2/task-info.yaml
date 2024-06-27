@@ -3,8 +3,8 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 68
-        length: 16
+      - offset: 66
+        length: 111
         placeholder_text: // bark function
         initial_state:
           length: 16
@@ -12,10 +12,14 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: b5nKVehwmBTHE6QZ0KxjxzkurQHTzqB0k6hRqNg6+SLuUUh+5pKnGQex0utG3EeFAxXE9opsNW9WtokENzjjWaRqGaOwh03De4+N2wB/AK0vR8m01WJBQy24/hi0rHjG
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 27 Jun 2024 10:25:33 UTC"
 record: -1

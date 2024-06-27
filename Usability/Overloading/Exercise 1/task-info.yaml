@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 54
-        length: 22
+        length: 233
         placeholder_text: // Implement class Dog
         initial_state:
           length: 22
@@ -12,10 +12,14 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: SuI6KRC64iqAK00HFVdFugun64kM6Wzw8eZqKOsW2voeQMx+e/mdRm3lwdszEKUQOe0RBbiQDsXVrzEvfiKT+UCiq1Wx8kPBAKc1Ud2zJiw28yWi56TfEndyx+cSmGDDlOh3BZ69T728Iik/+iOUWtrNm2SCZTfHmDk7DHs+Z8FxoAfWatsIkeH+u1LvO5yF
         selected: false
-        status: Unchecked
+        status: Solved
+        is_visible: false
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 27 Jun 2024 10:25:05 UTC"
 record: -1
